@@ -1,1 +1,1 @@
-$(function(){let n=$(".navigation"),i=n.find(".burger-icon");i.click(function(){})});
+$(function(){let e=$(".navigation"),i=e.find(".burger-icon");i.click(function(){});let n=$("#stay-connected form");n.validate({rules:{email:{required:!0,email:!0}}})});

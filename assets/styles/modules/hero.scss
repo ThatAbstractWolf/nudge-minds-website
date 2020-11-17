@@ -1,8 +1,55 @@
 .hero-wrapper {
+
+  position: relative;
+
   margin: 0 40px;
   height: 720px;
 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  .referral-wrapper {
+
+    position: absolute;
+
+    width: 500px;
+    height: 350px;
+
+    top: 185px;
+    left: 76px;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .referral-inner-wrapper {
+      position: relative;
+    }
+
+    @media only screen and (max-width: #{$large-devices}px) {
+      width: 415px;
+      left: 40px;
+    }
+
+    @media only screen and (max-width: #{$medium-devices}px) {
+      width: 285px;
+      left: 25px;
+    }
+  }
+
+  img[class*="education-logo"] {
+    position: absolute;
+
+    left: 40px;
+    bottom: 40px;
+
+    @media only screen and (max-width: #{$medium-devices}px) {
+      //top: 40px
+    }
+  }
+
+  @media only screen and (max-width: #{$medium-devices}px) {
+    margin: 0;
+  }
 }
