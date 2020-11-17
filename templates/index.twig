@@ -1,5 +1,11 @@
-{% extends "_layout" %}
+{% extends "core/_layout" %}
 
 {% block content %}
-    <p>Test</p>
+
+    {# Navigation bar module #}
+    {% include "modules/_navigation.twig" %}
+
+    {# Hero module #}
+    {% include "modules/_hero.twig" %}
+
 {% endblock %}

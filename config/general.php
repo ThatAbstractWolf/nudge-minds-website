@@ -41,7 +41,7 @@ return [
         'allowAdminChanges' => true,
 
         // Don’t allow updates on Staging
-        'allowUpdates' => false,
+        'allowUpdates' => true,
 
         // Prevent crawlers from indexing pages and following links
         'disallowRobots' => true,

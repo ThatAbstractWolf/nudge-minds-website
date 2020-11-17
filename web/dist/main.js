@@ -1,0 +1,1 @@
+$(function(){let n=$(".navigation"),i=n.find(".burger-icon");i.click(function(){})});
